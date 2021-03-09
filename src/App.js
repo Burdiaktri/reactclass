@@ -9,14 +9,8 @@ function App() {
         <p>
           Bali Planty Life
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p> Burdiak Trinidad </p>
+      
       </header>
     </div>
   );
