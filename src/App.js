@@ -1,17 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { NavBar} from './components/navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Bali Planty Life
-        </p>
-        <p> Burdiak Trinidad </p>
-      
-      </header>
+      <NavBar/>
+      <p>Burdiak Trinidad</p>
+  
     </div>
   );
 }
