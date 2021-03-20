@@ -1,11 +1,10 @@
 import React, {useEffect, useState} from "react";
 
-
-
 export function ItemCount ({stock, inicial, onAdd}){
+
     const [count, setCount] = useState(parseInt(inicial));
     
-    useEffect(() => {
+      useEffect(() => {
         setCount(parseInt(inicial));
         return;
       }, [inicial]);
@@ -16,10 +15,8 @@ export function ItemCount ({stock, inicial, onAdd}){
     
       const removeHandle = () => {
         setCount(count - 1);
-      };
-    
-//    
-return (
+      };    
+    return (
     <div className="w-25 flex-column align-items-strech">
     <div className="m-2 p-2 d-flex flex-row justify-content-around align-items-center ">
         <button
