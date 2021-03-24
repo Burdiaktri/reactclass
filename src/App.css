@@ -77,7 +77,12 @@
 .carrito {
   border: 0px;
 }
-
+.imagen {
+  width: 203px;
+  height: 330px;
+  text-align: center;
+  margin-left:40%;
+}
 
 @keyframes App-logo-spin {
   from {
