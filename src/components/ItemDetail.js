@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function ItemDetail({ item}) {
+export const ItemDetail = ({ item}) => {
  
     return (
         <div>
@@ -10,5 +10,5 @@ export function ItemDetail({ item}) {
             <div>${item.precio}</div>
         </div>
    
-   )}
+)}
   
