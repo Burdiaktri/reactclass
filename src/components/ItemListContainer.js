@@ -28,7 +28,7 @@ import { ItemList } from "./ItemList";
       promesa.then((respuesta)=>{
          setItems(respuesta)
       })
-    })
+    }, [])
     
     return (<div className="container"> 
     <ItemList items={items}/>
