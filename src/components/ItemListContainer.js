@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ItemCount } from "./ItemCount";
+import  ItemCount  from "./ItemCount";
 import { ItemList } from "./ItemList";
 
 
@@ -32,7 +32,7 @@ import { ItemList } from "./ItemList";
     
     return (<div className="container"> 
     <ItemList items={items}/>
-    <ItemCount stock="10" inicial="1" onAdd={compra} />
+    <ItemCount stock="10" inicial={1} onAdd={compra} />
    </div>);
     
 }

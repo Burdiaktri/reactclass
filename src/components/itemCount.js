@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from "react";
 
-export function ItemCount ({stock, inicial, onAdd}){
+export default function ItemCount ({stock, inicial, onAdd}){
 
-    const [count, setCount] = useState(parseInt(inicial));
+    const [count, setCount] = useState(inicial);
     
       useEffect(() => {
-        setCount(parseInt(inicial));
+        setCount(inicial);
         return;
       }, [inicial]);
 
@@ -49,4 +49,3 @@ export function ItemCount ({stock, inicial, onAdd}){
   );
 }
 
-export default ItemCount;
