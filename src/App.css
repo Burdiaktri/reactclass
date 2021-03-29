@@ -61,8 +61,6 @@
 }
 
 .producto {
- 
-
   text-align: center;
   border: 1px solid #E1E1E2;
 }
@@ -81,9 +79,18 @@
   width: 203px;
   height: 330px;
   text-align: center;
-  margin-left:40%;
+  justify-content: center;
+  margin-top: 20px;
 }
-
+.contenido {
+  justify-content: center;
+}
+.titulo2 {
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-size: 30px;
+  margin-top: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
