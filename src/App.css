@@ -91,6 +91,14 @@
   font-size: 30px;
   margin-top: 20px;
 }
+.descripcion {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.itemCount {
+  justify-content: center;
+  text-align: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

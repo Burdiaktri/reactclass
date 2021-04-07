@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
-import  ItemCount  from "./ItemCount";
 import { ItemList } from "./ItemList";
 import { useParams } from 'react-router-dom';
 
 
- export default function ItemListContainer (props) {
-    const compra = function (){
-       console.log("Gracias por tu compra" );}
+ export default function ItemListContainer () {
+   
 
     const [items, setItems] = useState ([])
     const {categoryId} = useParams()
@@ -33,7 +31,6 @@ import { useParams } from 'react-router-dom';
     return (<div className="container"> 
     Categoria {categoryId}
     <ItemList items={items}/>
-    <ItemCount stock="10" inicial={1} onAdd={compra} />
    </div>);
     
 }

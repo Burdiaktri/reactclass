@@ -38,9 +38,8 @@ export default function ItemCount ({stock, inicial, onAdd}){
         </button>
         </div>
       <button
-        disabled={count < 1}
         type="button"
-        onClick={onAdd}
+        onClick={()=>onAdd(count)}
         className="producto"
       >
         Agregar al carrito
